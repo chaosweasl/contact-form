@@ -4,8 +4,8 @@ export default function App() {
   return (
     <div className="flex justify-center items-center h-screen w-screen bg-[var(--color-green-200)]">
       <div className="card bg-white text-primary-content w-2/5 h-3/4">
-        <div className="card-body">
-          <h2 className="m-2 card-title text-3xl text-[var(--color-grey-900)]">
+        <div className="card-body m-3">
+          <h2 className="mb-2 card-title text-3xl text-[var(--color-grey-900)]">
             Contact Us
           </h2>
           <fieldset className="fieldset rounded-box flex flex-col w-full gap-5">
