@@ -51,7 +51,7 @@ export default function App() {
             </p>
           </div>
         )}
-        <div className="card bg-white text-primary-content lg:w-2/5 lg:h-6/7">
+        <div className="card bg-white text-primary-content lg:w-3/6 lg:h-6/7">
           <div className="card-body m-2">
             <h2 className="card-title mb-2 text-3xl text-[var(--color-grey-900)]">
               Contact Us
