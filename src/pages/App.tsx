@@ -11,21 +11,21 @@ export default function App() {
           <fieldset className="fieldset rounded-box flex flex-col w-full gap-5">
             <div className="flex flex-row justify-between gap-5">
               <div className="w-full">
-                <label className="label text-sm mb-1 text-[var(--color-grey-900)]">
+                <label className="label text-lg mb-1 text-[var(--color-grey-900)]">
                   First Name{" "}
-                  <span className="text-[var(--color-green-600)] text-lg">
+                  <span className="text-[var(--color-green-600)] text-xl">
                     *
                   </span>
                 </label>
                 <input
                   type="text"
-                  className="input w-full text-[var(--color-grey-900)] text-lg focus:outline-0 focus:ring-1
+                  className="input w-full text-[var(--color-grey-900)] text-xl focus:outline-0 focus:ring-1
                    focus:ring-[var(--color-green-600)] border-[var(--color-grey-500)] rounded-lg"
                 />
               </div>
 
               <div className="w-full">
-                <label className="label text-sm mb-1 text-[var(--color-grey-900)]">
+                <label className="label text-lg mb-1 text-[var(--color-grey-900)]">
                   Last Name{" "}
                   <span className="text-[var(--color-green-600)] text-lg">
                     *
@@ -33,20 +33,20 @@ export default function App() {
                 </label>
                 <input
                   type="text"
-                  className="input w-full text-[var(--color-grey-900)] text-lg focus:outline-0 focus:ring-1
+                  className="input w-full text-[var(--color-grey-900)] text-xl focus:outline-0 focus:ring-1
                    focus:ring-[var(--color-green-600)] border-[var(--color-grey-500)] rounded-lg"
                 />
               </div>
             </div>
 
             <div>
-              <label className="label text-sm mb-1 text-[var(--color-grey-900)]">
+              <label className="label text-lg mb-1 text-[var(--color-grey-900)]">
                 Email Address{" "}
                 <span className="text-[var(--color-green-600)] text-lg">*</span>
               </label>
               <input
                 type="text"
-                className="input w-full text-[var(--color-grey-900)] text-lg focus:outline-0 focus:ring-1
+                className="input w-full text-[var(--color-grey-900)] text-xl focus:outline-0 focus:ring-1
                    focus:ring-[var(--color-green-600)] border-[var(--color-grey-500)] rounded-lg"
               />
             </div>
