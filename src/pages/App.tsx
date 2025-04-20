@@ -2,9 +2,62 @@ import "../styles/App.css";
 
 export default function App() {
   return (
-    <div>
-      Hello! This is currently WIP :) If you're just visiting don't expect to
-      see the full page yet
+    <div className="flex justify-center items-center h-screen w-screen bg-[var(--color-green-200)]">
+      <div className="card bg-white text-primary-content w-2/5 h-3/4">
+        <div className="card-body">
+          <h2 className="m-2 card-title text-3xl text-[var(--color-grey-900)]">
+            Contact Us
+          </h2>
+          <fieldset className="fieldset rounded-box flex flex-col w-full gap-5">
+            <div className="flex flex-row justify-between gap-5">
+              <div className="w-full">
+                <label className="label text-sm mb-1 text-[var(--color-grey-900)]">
+                  First Name{" "}
+                  <span className="text-[var(--color-green-600)] text-lg">
+                    *
+                  </span>
+                </label>
+                <input
+                  type="text"
+                  className="input w-full text-[var(--color-grey-900)] text-lg focus:outline-0 focus:ring-1
+                   focus:ring-[var(--color-green-600)] border-[var(--color-grey-500)] rounded-lg"
+                />
+              </div>
+
+              <div className="w-full">
+                <label className="label text-sm mb-1 text-[var(--color-grey-900)]">
+                  Last Name{" "}
+                  <span className="text-[var(--color-green-600)] text-lg">
+                    *
+                  </span>
+                </label>
+                <input
+                  type="text"
+                  className="input w-full text-[var(--color-grey-900)] text-lg focus:outline-0 focus:ring-1
+                   focus:ring-[var(--color-green-600)] border-[var(--color-grey-500)] rounded-lg"
+                />
+              </div>
+            </div>
+
+            <div>
+              <label className="label text-sm mb-1 text-[var(--color-grey-900)]">
+                Email Address{" "}
+                <span className="text-[var(--color-green-600)] text-lg">*</span>
+              </label>
+              <input
+                type="text"
+                className="input w-full text-[var(--color-grey-900)] text-lg focus:outline-0 focus:ring-1
+                   focus:ring-[var(--color-green-600)] border-[var(--color-grey-500)] rounded-lg"
+              />
+            </div>
+          </fieldset>
+          <div className="card-actions justify-center items-center h-12">
+            <button className="btn w-full h-full bg-[var(--color-green-600)] rounded-lg">
+              <p className="text-lg text-white">Submit</p>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
